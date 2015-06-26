@@ -1,4 +1,5 @@
 #Youtube Key-Finder
+[![Build Status](https://travis-ci.org/ngotchac/Youtube-KeyFinder.svg?branch=master)](https://travis-ci.org/ngotchac/Youtube-KeyFinder)
 
 This very small module will retrieve a valid API Key to use for making calls
 to the Youtube API.
@@ -28,6 +29,21 @@ $> curl 'https://content.googleapis.com/youtube/v3/channels?part=snippet&forUser
 ## Caution
 
 This was only made for an experiment with [Esprima](http://esprima.org/) and is not supposed to be used beside testing.
+
+## Test
+
+The test runs with `mocha` and `chai`
+```bash
+$> npm test
+```
+
+## CLI
+
+You can use the CLI to get the API Key
+```bash
+$> [sudo] npm install -g ngotchac/Youtube-KeyFinder
+$> youtube-key-finder
+```
 
 
 #### Enjoy!
