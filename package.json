@@ -3,8 +3,17 @@
   "version": "0.0.1",
   "description": "Get a valid YoutubeApi Key",
   "main": "index.js",
+  "bin": {
+      "youtube-key-finder": "./bin/youtube-key-finder"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test/main.js"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [ "index.js" ],
+      "data-cover-never": [ "node_modules", "tests" ]
+    }
   },
   "keywords": [
     "youtube",
@@ -15,5 +24,10 @@
   "dependencies": {
     "bluebird": "^2.9.30",
     "esprima": "^2.3.0"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
   }
 }

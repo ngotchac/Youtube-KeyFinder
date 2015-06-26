@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var youtubeKeyFinder = require('../');
+
+youtubeKeyFinder.getKey(function(err, apiKey) {
+    if (err) return console.error(err);
+    process.stdout.write(apiKey);
+});
+
