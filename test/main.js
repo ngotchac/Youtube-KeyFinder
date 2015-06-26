@@ -7,7 +7,7 @@ var youtubeKeyFinder = require('../');
 describe('Youtube KeyFinder', function() {
     describe('#getKey', function() {
         it('should be able to retrieve an Youtube API Key', function(done) {
-            this.timeout(5000);
+            this.timeout(20000);
 
             youtubeKeyFinder.getKey(function(err, key) {
                 if (err) throw err;
@@ -18,7 +18,7 @@ describe('Youtube KeyFinder', function() {
         });
 
         it('should retrieve a valid API Key', function(done) {
-            this.timeout(10000);
+            this.timeout(40000);
 
             youtubeKeyFinder.getKey(function getKeyCallback(err, key) {
                 if (err) throw err;

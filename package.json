@@ -1,5 +1,6 @@
 {
-  "name": "YoutubeApiHack",
+  "name": "Youtube-KeyFinder",
+  "repository": "https://github.com/ngotchac/Youtube-KeyFinder",
   "version": "0.0.1",
   "description": "Get a valid YoutubeApi Key",
   "main": "index.js",
