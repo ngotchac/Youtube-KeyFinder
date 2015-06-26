@@ -1,5 +1,6 @@
 #Youtube Key-Finder
 [![Build Status](https://travis-ci.org/ngotchac/Youtube-KeyFinder.svg?branch=master)](https://travis-ci.org/ngotchac/Youtube-KeyFinder)
+[![Coverage Status](https://coveralls.io/repos/ngotchac/Youtube-KeyFinder/badge.svg?branch=master)](https://coveralls.io/r/ngotchac/Youtube-KeyFinder?branch=master)
 
 This very small module will retrieve a valid API Key to use for making calls
 to the Youtube API.
